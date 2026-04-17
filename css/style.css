@@ -1,0 +1,85 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand ,.offer_heading ,.services_heading,.signup_heading,.testimonial_heading,.contact_heading,.login_heading,.editProfile{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size:2rem;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+/* Header styling */
+.head {
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+ min-height: 90vh;
+ margin-top:50px;
+ background-color:rgb(234, 105, 58);
+ position:relative;
+}
+/* welcome styling */
+.welcome{
+  position:absolute;
+  top:50px;
+  text-align:center;
+}
+.text-justify-custom {
+  text-align: justify;
+}
+.rowfont h3{
+  font-family: sans-serif !important;
+}
+.rowfont a i:hover{
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.signup_form{
+  box-shadow:0 0 7px #ccc
+}
+.pass_box{
+  position:relative;
+}
+#eye_symbol{
+    position:absolute !important;
+    top:43px;
+    right:10px;
+    cursor:pointer;
+    color:#ddd;
+}
+.contact_info i{
+ color:navy;
+}
+.login_con{
+  background-image:url("../images/loginbg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+
+}
+
+/* media query coding */
+@media only screen and (max-width:600px){
+  .welcome{
+   top: 80px;
+  }
+  .head {
+  background-position: top center;
+  background-repeat: no-repeat;
+ min-height: 70vh;
+ margin-top:90px;
+ background-color:rgb(234, 105, 58);
+ position:relative;
+}
+}
+@media only screen and (max-width:470px){
+  .sidebar{
+    margin-top:30px;
+  }
+}
